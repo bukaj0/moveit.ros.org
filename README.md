@@ -16,7 +16,7 @@ Please use https://www.youtube-nocookie.com/ instead of  https://www.youtube.com
 
 ## Build Locally on Ubuntu
 
-Will install Ruby, Jekyll, build the website, and server the website on localhost:
+Install Ruby, Jekyll, build the website and server the website on localhost:
 
     ./build_locally.sh
 
@@ -28,8 +28,8 @@ If Jekyll is for some reason still running in the background, kill to prevent po
 
     pkill -9 -f jekyll
 
-### Run Build Tests Locally
+## Run Build Tests Locally
 
-Will check all links are valid, etc:
+Check if all links are valid, etc:
 
     ./build_locally.sh check
